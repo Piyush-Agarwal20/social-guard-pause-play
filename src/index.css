@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 175 100% 42%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -26,15 +26,40 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 175 100% 42%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 175 100% 42%;
+
+    /* Custom Social Guard design tokens */
+    --teal-50: 175 100% 97%;
+    --teal-100: 175 100% 90%;
+    --teal-500: 175 100% 42%;
+    --teal-600: 175 100% 35%;
+    --teal-900: 175 100% 15%;
+    
+    --blue-50: 210 100% 97%;
+    --blue-500: 210 100% 60%;
+    --blue-600: 210 100% 50%;
+    
+    --gray-50: 210 20% 98%;
+    --gray-100: 210 20% 95%;
+    --gray-600: 215.4 16.3% 46.9%;
+    --gray-900: 222.2 84% 4.9%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--teal-500)), hsl(var(--blue-500)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--gray-50)), hsl(var(--background)));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(var(--teal-500) / 0.1);
+    --shadow-medium: 0 10px 15px -3px hsl(var(--teal-500) / 0.1);
+    --shadow-glow: 0 0 20px hsl(var(--teal-500) / 0.3);
 
     --radius: 0.5rem;
 

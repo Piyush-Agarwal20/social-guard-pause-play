@@ -52,6 +52,25 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Social Guard custom colors
+				teal: {
+					50: 'hsl(var(--teal-50))',
+					100: 'hsl(var(--teal-100))',
+					500: 'hsl(var(--teal-500))',
+					600: 'hsl(var(--teal-600))',
+					900: 'hsl(var(--teal-900))'
+				},
+				blue: {
+					50: 'hsl(var(--blue-50))',
+					500: 'hsl(var(--blue-500))',
+					600: 'hsl(var(--blue-600))'
+				},
+				gray: {
+					50: 'hsl(var(--gray-50))',
+					100: 'hsl(var(--gray-100))',
+					600: 'hsl(var(--gray-600))',
+					900: 'hsl(var(--gray-900))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
